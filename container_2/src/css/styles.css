@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(7, 0, 0);
+}
+
+
+header {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: #161616;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.avatar {
+    width: 86px;
+    height: 80px;
+    border-radius: 70%;
+}
+
+input {
+    width: 700px;
+    height: 60px;
+    background: #ffffff;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+input::placeholder {
+    color: #000000;
+    
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+  list-style: none;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.cadastrese{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.767);
+    
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid red;
+    opacity : 0.5;
+}
+
+main img {
+     width: 100%; 
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 2.6rem;
+    background-color: #585858;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.Destaque{
+    width: 13%;
+    
+}
+section h1 {
+   
+    text-align: center;
+   align-content: space-around;
+   height: 85px;
+   margin: 15px;
+    background-color: rgb(94, 32, 32);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+
+
+.card {
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+   
+    gap: 2rem;
+    padding: 0.5rem;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.card div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    width: 280px;
+    height: 85%;
+   
+    border-radius: 5px;
+    border: 1px solid rgba(48, 7, 7, 0.203);
+    background-color: #000000e5;
+    
+}
+
+.card img {
+    width: 250px;
+    height: 300px;
+
+}
+
+h3{
+    width: 100%;
+    color: white;
+    margin-top: 6px;
+}
+p{
+    width: 100%;
+    color: white;
+    margin: 6px;
+}
+button{
+border-radius: 8px;
+background-color: #585858;
+width: 100%;
+height: 30px;
+margin-top: 6px;
+background-color: white;
+}
+
+
+
+
